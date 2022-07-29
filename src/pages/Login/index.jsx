@@ -1,11 +1,23 @@
+import React, { useState } from 'react';
 import './login.css'
 import logo from '../../assets/logo.png'
 import { Link } from 'react-router-dom';
-
+import { AiOutlineEye,AiOutlineEyeInvisible } from "react-icons/ai";
 
 
 
 export function Login() {
+
+const [email,setEmail] = useState("")
+const [password,setPassword] = useState("")
+const [show,setShow] = useState(false)
+
+const handleClick = (e) => {
+  e.preventDefault()
+  setShow(!show);
+}
+
+
   return (
 <div className=" body ">
     <main class="form-signin w-100 m-auto mt-5">
@@ -19,17 +31,43 @@ export function Login() {
         </div>
 
         <div class=" mb-3 ">
-          <input type="email" class="form-control " id="floatingInput" placeholder="E-mail"/>
+          <input type="email" 
+          class="form-control " 
+          id="floatingInput" 
+          placeholder="E-mail"
+          value={email}
+          onChange={e => setEmail(e.target.value)}
+          />
          
         </div>
-        <div class="">
-          <input type="password" class="form-control" id="floatingPassword" placeholder="Senha"/>
-         
+        <div class="eye">
+          <input  
+          class="form-control" 
+          id="floatingPassword" 
+          placeholder="Senha"
+          type={show ? "text" : "password"}
+          value={password}
+          onChange={e => setPassword(e.target.value)}
+          />
+      <div className="login-eye">
+                  {show ? (
+                     <AiOutlineEye
+                        size={20}
+                        onClick={handleClick}
+                     />
+                  ) : (
+                        <AiOutlineEyeInvisible
+                           size={20}
+                           onClick={handleClick}
+                        />
+                     )}
+               </div>
+
         </div>
 
         <div class=" mb-3">
           <label className='text-white fs-5 '>
-            <input className="check" type="checkbox" value="remember-me" /> Permanecer conectado
+            <input  type="checkbox"  value="remember-me" /> Permanecer conectado
             <a href=" " className='ps-5 link-success '>Esqueci a Senha</a>
           </label>
           

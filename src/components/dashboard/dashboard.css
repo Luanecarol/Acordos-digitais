@@ -1,0 +1,13 @@
+body,html {
+    overflow-x: hidden !important;
+ 
+    
+}
+.container1{
+    background: white;  
+    float: right;  
+    width: 80%;
+    height: 100vh;
+    margin-top: -4rem;
+   
+}

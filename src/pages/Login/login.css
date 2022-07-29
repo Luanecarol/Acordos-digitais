@@ -6,7 +6,7 @@
     padding-bottom: 201px;
     background-color: rgb(0, 0, 0);
   
-   
+    
   }
   .title{
     display:flex;
@@ -26,9 +26,7 @@ h4{
   .form-signin {
     max-width: 370px;
     padding: 15px;
-
    
-  
   }
   
   .form-signin .form-floating:focus-within {
@@ -39,11 +37,14 @@ h4{
   .form-signin input[type="email"] {
     margin-bottom: -1px;
     border-radius: 5px;
+    display: flex;
+  
   }
   
   .form-signin input[type="password"] {
-    margin-bottom: 10px;
-    border-radius: 5px;
+    margin-bottom: 5px;
+    border-radius:5px;
+    
   }
 
   .bd-placeholder-img {
@@ -92,4 +93,8 @@ h4{
     text-align: center;
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
+  }
+  
+  .login-eye{
+    padding-left:300px;
   }

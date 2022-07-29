@@ -5,9 +5,10 @@ import {
   } from "react-router-dom"
 import { Login } from "../pages/Login";
 //import { Home } from "../pages/Dashboard";
+//import { Sidebar } from "../components/Sidebar/sidebar";
+
 /*import { Pay } from "../components/Integracoes/Pay";
 import { Planos } from "../components/Planos/planos";
-//import { Sidebar } from "../components/Sidebar/sidebar";
 import { Dashboard } from "../components/dashboard/dashboard";
 import {Catalogo } from "../components/Catalogo/catalogo"
 import {Cards } from '../components/Cards/cards'
@@ -25,8 +26,7 @@ export function Rotas(){
         <BrowserRouter>
         <Routes>
         <Route path="/" element={<Login />} />
-          
-        
+       
         </Routes>
       </BrowserRouter>
     );
