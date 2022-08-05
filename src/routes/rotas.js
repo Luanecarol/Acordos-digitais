@@ -1,33 +1,39 @@
 import {
-    BrowserRouter,
-    Routes,
-    Route,
-  } from "react-router-dom"
+  BrowserRouter,
+  Routes,
+  Route,
+} from "react-router-dom"
 import { Login } from "../pages/Login";
 //import { Home } from "../pages/Dashboard";
+import { Pay } from "../components/integracoes/pay";
+//import { Planos } from "../components/Planos/planos";
 //import { Sidebar } from "../components/Sidebar/sidebar";
-
-/*import { Pay } from "../components/Integracoes/Pay";
-import { Planos } from "../components/Planos/planos";
 import { Dashboard } from "../components/dashboard/dashboard";
-import {Catalogo } from "../components/Catalogo/catalogo"
-import {Cards } from '../components/Cards/cards'
+//import {Catalogo } from "../components/Catalogo/catalogo"
+//import {Cards } from '../components/Cards/cards'
 
-import { Suport } from '../components/Suport/suport'
-import { Dominios } from "../components/Dominios/dominios";
+//import { Suport } from '../components/Suport/suport'
+//import { Dominios } from "../components/Dominios/dominios";
 
-import {Certificado } from '../components/Certificado/certificado';
-import { Cursos } from "../components/Cursos/cursos";
+//import {Certificado } from '../components/Certificado/certificado';
+//import { Cursos } from "../components/Cursos/cursos";
 
-*/
+
 
 export function Rotas(){
-    return(
-        <BrowserRouter>
-        <Routes>
-        <Route path="/" element={<Login />} />
+  return(
+      <BrowserRouter>
+      <Routes>
+      <Route path="/" element={<Login />} />
+        <Route path="dashboard" element={<Dashboard />} />
+        
+
        
-        </Routes>
-      </BrowserRouter>
-    );
+        
+        <Route path="integracao" element={<Pay /> } />
+        
+      
+      </Routes>
+    </BrowserRouter>
+  );
 }

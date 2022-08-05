@@ -1,4 +1,4 @@
-import { Sidebar } from '../Sidebar/sidebar';
+import { Sidebar } from '../sidebar/sidebar';
 import './dashboard.css';
 import Chart from "react-apexcharts";
 

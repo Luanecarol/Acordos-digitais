@@ -57,3 +57,6 @@ code {
 .border-success {
   border-color: #00BAFF !important;
 }
+.text-primary {
+  color: #00BAFF !important;
+}

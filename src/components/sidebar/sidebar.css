@@ -13,7 +13,6 @@
     }
     
     
-    
     a{
         text-decoration: none;
     }
@@ -62,8 +61,9 @@
     
      .nav-link-icon{
         font-size: 1rem;
-        color: aquamarine;
+        color: white;
         cursor: pointer;
+        z-index:-1 !important;
     }
     
      .nav-link-icon2{
@@ -88,7 +88,7 @@
     
     .nav-link1:hover{
         color: rgb(0, 0, 0);
-        background-color: #54f6bbe4;
+        background-color: #224957;
     
     }
     

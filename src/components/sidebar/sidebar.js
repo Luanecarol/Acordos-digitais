@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 
 
 
-
 export function Sidebar() {
 
   function ativar() {
@@ -25,16 +24,15 @@ export function Sidebar() {
         <aside className='sidebar show'>
           <nav className='nav'>
             <div>
-              <div  className=''> 
-              <img class="w-50 mx-5 " src={logo} alt="" />
+              <div  className='mx-2 fs-6 text-white'> 
+              <img class="w-5 mx-1" src={logo} alt="" />ACORDOS DIGITAIS
               </div>
               
               <div className=' m-4 text-white '>
           
             <Link to="/dashboard">
             <div  className='mt-3 nav-link1'> 
-              <i className="fa-solid fa-chart-column nav-link-icon "></i> 
-              <span className='mx-2'>DASHBOARD</span>
+              <span className='mx-2 text-primary'>DASHBOARD</span>
               </div>
             </Link>
            
@@ -42,7 +40,7 @@ export function Sidebar() {
                 <Link to="/catalogo">
                 <div  className='mt-3 nav-link1'> 
               <i className="fa-solid fa-play nav-link-icon"></i> 
-              <span className='mx-2 fs-5'>CATÁLOGO  DE CURSOS</span>
+              <span className='mx-2 fs-5 text-primary'>PLANOS</span>
               </div>
                 </Link>
       
@@ -50,7 +48,7 @@ export function Sidebar() {
               <Link to="/planos">
               <div className='mt-3 nav-link1'> 
               <i className="fa-solid fa-building-columns nav-link-icon"></i> 
-              <span className='mx-2 fs-5'>PLANOS</span>
+              <span className='mx-2 fs-5 text-primary'>CATÁLOGO DE CONTRATO</span>
               </div>
               </Link>
         
@@ -58,47 +56,15 @@ export function Sidebar() {
            
             <div  className='mt-3 nav-link1' onClick={ativar}> 
               <i className="fa-solid fa-graduation-cap nav-link-icon "></i> 
-              <span className='mx-2 fs-5'>ÁREA DE   MEMBROS</span>             
+              <span className='mx-2 fs-5 text-primary'>PAPEL TIMBRADO</span>             
               </div>
            
-
-           <div id='elemento' className='bar'>
-
-           <Link to="/membro">
-            <div  className='mt-2 ms-4 nav-link1'>    
-              <span className='mx-2 fs-5'>Home</span>    
-              <i className="fa-solid  fa-angle-right nav-link-icon "></i>          
+              <div  className='mt-3 nav-link1' onClick={ativar}> 
+              <i className="fa-solid fa-graduation-cap nav-link-icon "></i> 
+              <span className='mx-2 fs-5 text-primary'>SEUS CONTRATOS</span>             
               </div>
-            </Link>
 
-            <Link to="/suporte">
-            <div  className='mt-2 ms-4 nav-link1'>    
-              <span className='mx-2 fs-5'>Suporte ao aluno</span>    
-              <i className="fa-solid  fa-angle-right nav-link-icon "></i>          
-              </div>
-            </Link>
-
-            <Link to="/integracao">
-            <div  className='mt-2 ms-4 nav-link1'>    
-              <span className='mx-2 fs-5'>Integrações</span>    
-              <i className="fa-solid  fa-angle-right nav-link-icon "></i>          
-              </div>
-            </Link>
-
-            <Link to="/dominio">
-            <div  className='mt-2 ms-4 nav-link1'>    
-              <span className='mx-2 fs-5'>Domínios</span>    
-              <i className="fa-solid  fa-angle-right nav-link-icon "></i>          
-              </div>
-            </Link>
-
-            <Link to="/certificado">
-            <div  className='mt-2 ms-4 nav-link1'>    
-              <span className='mx-2 fs-5'>Certificação</span>    
-              <i className="fa-solid fa-angle-right nav-link-icon "></i>          
-              </div>
-            </Link>
-           </div>
+           
 
             
 
