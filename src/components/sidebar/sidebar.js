@@ -37,7 +37,7 @@ export function Sidebar() {
             </Link>
            
 
-                <Link to="/catalogo">
+                <Link to="/planos">
                 <div  className='mt-3 nav-link1'> 
               <i className="fa-solid fa-play nav-link-icon"></i> 
               <span className='mx-2 fs-5 text-primary'>PLANOS</span>
@@ -45,7 +45,7 @@ export function Sidebar() {
                 </Link>
       
 
-              <Link to="/planos">
+              <Link to="/catalogo">
               <div className='mt-3 nav-link1'> 
               <i className="fa-solid fa-building-columns nav-link-icon"></i> 
               <span className='mx-2 fs-5 text-primary'>CATÁLOGO DE CONTRATO</span>
@@ -53,17 +53,19 @@ export function Sidebar() {
               </Link>
         
 
-           
+              <Link to="/catalogo">
             <div  className='mt-3 nav-link1' onClick={ativar}> 
               <i className="fa-solid fa-graduation-cap nav-link-icon "></i> 
               <span className='mx-2 fs-5 text-primary'>PAPEL TIMBRADO</span>             
               </div>
-           
+              </Link>
+
+              <Link to="/contratos">
               <div  className='mt-3 nav-link1' onClick={ativar}> 
               <i className="fa-solid fa-graduation-cap nav-link-icon "></i> 
               <span className='mx-2 fs-5 text-primary'>SEUS CONTRATOS</span>             
               </div>
-
+              </Link>
            
 
             

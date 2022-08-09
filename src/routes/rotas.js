@@ -4,12 +4,14 @@ import {
   Route,
 } from "react-router-dom"
 import { Login } from "../pages/Login";
+import { Contratos } from "../components/contratos/contratos";
+
 //import { Home } from "../pages/Dashboard";
 import { Pay } from "../components/integracoes/pay";
-//import { Planos } from "../components/Planos/planos";
+import { Planos } from "../components/planos/planos";
 //import { Sidebar } from "../components/Sidebar/sidebar";
 import { Dashboard } from "../components/dashboard/dashboard";
-//import {Catalogo } from "../components/Catalogo/catalogo"
+import { Catalogo } from "../components/catalogo/catalogo"
 //import {Cards } from '../components/Cards/cards'
 
 //import { Suport } from '../components/Suport/suport'
@@ -26,7 +28,10 @@ export function Rotas(){
       <Routes>
       <Route path="/" element={<Login />} />
         <Route path="dashboard" element={<Dashboard />} />
-        
+        <Route path="planos" element={<Planos />} />
+        <Route path="catalogo" element={<Catalogo />} />
+        <Route path="contratos" element={<Contratos />} />
+
 
        
         
