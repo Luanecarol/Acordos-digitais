@@ -53,7 +53,7 @@ export function Sidebar() {
               </Link>
         
 
-              <Link to="/catalogo">
+              <Link to="/papelTimbrado">
             <div  className='mt-3 nav-link1' onClick={ativar}> 
               <i className="fa-solid fa-graduation-cap nav-link-icon "></i> 
               <span className='mx-2 fs-5 text-primary'>PAPEL TIMBRADO</span>             
