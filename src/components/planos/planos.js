@@ -9,7 +9,7 @@ export function Planos () {
         <div className='container1'>
         
            <h1 className='fw-bold'>Planos</h1>
-            <p className='fs-3'>Feche mais serviços de marketing e deixe a entrega com a gente</p>
+            <p className='fs-3'>Feche mais serviços de marketing e deixe a burocracia com a gente</p>
 
            <section class="pricing aa">
   <div class="">

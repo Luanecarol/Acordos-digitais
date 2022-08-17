@@ -30,12 +30,12 @@ return(
  <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-1 ">
 
   <div className='col mt-3'>
-  <div class="card shadow p-1" >
+  <div class="card shadow p-3" >
   <img src="https://canaldemarketingdigital.com.br/wp-content/uploads/2021/05/curso-googleads-canal-de-marketing-digital-800x445.png" class="card-img-top" height={260}  alt="..."/>
   <div class="card-body">
     <h5 class="card-title">Google Ads</h5>
 
-    <Link to="/new">
+    <Link to="/novoContrato">
     <a href=" " class="btn btn-success">Criar</a>
     </Link>
 

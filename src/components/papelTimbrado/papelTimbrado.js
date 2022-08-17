@@ -21,7 +21,7 @@ return(
 
  <div class=" anexo ">
 
- <img className='imglink' src={link} alt="..." height={200}/>
+ <img className='imglink' src={link} alt="..." height= {200}/>
   
 
  

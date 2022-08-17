@@ -51,7 +51,7 @@ export function Dashboard () {
        
 
            <div className='mt-3'>
-            <h2>Vendas</h2>
+            <h2>Contratos</h2>
 
     <form class="row mt-3 mb-2">
 
@@ -59,7 +59,7 @@ export function Dashboard () {
 <div class="col-3 ">
   
     <select class="form-select border-success " id="specificSizeSelect">
-      <option selected>Área</option>
+      <option selected>Clientes</option>
       <option value="1">One</option>
       <option value="2">Two</option>
       <option value="3">Three</option>
@@ -76,7 +76,24 @@ export function Dashboard () {
     </select>
   </div>
 
+  <div class="col-3 ">
   
+    <select class="form-select border-success " id="specificSizeSelect">
+      <option selected>Serviços</option>
+      <option value="1">One</option>
+      <option value="2">Two</option>
+      <option value="3">Three</option>
+    </select>
+  </div>
+  <div class="col-3">
+    
+    <select class="form-select border-success " id="specificSizeSelect">
+      <option selected>Data</option>
+      <option value="1">One</option>
+      <option value="2">Two</option>
+      <option value="3">Three</option>
+    </select>
+  </div>
 </form>
 
 
@@ -91,22 +108,12 @@ export function Dashboard () {
      </div>
 
      
-     <h2 className='mt-2'>Cursos mais acessados</h2>
+     <h2 className='mt-2'>Serviços mais contratados</h2>
 
         <form class="row mt-3">
 
 
-        <div class="col-3">
-
-        <select class="form-select border-success " id="specificSizeSelect">
-        <option selected>Área</option>
-        <option value="1">One</option>
-        <option value="2">Two</option>
-        <option value="3">Three</option>
-        </select>
-        </div>
-
-        <div class="col-3">
+        <div class="col-4">
 
         <select class="form-select border-success " id="specificSizeSelect">
         <option selected>Data</option>
@@ -115,6 +122,8 @@ export function Dashboard () {
         <option value="3">Three</option>
         </select>
         </div>
+
+        
 
 
         </form>

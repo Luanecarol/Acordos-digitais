@@ -11,6 +11,7 @@ import { Planos } from "../components/planos/planos";
 import { Dashboard } from "../components/dashboard/dashboard";
 import { Catalogo } from "../components/catalogo/catalogo";
 import { Papel } from '../components/papelTimbrado/papelTimbrado';
+import { NovoContrato } from '../components/NovoContrato/NovoContrato';
 
 
 
@@ -26,6 +27,7 @@ export function Rotas(){
         <Route path="catalogo" element={<Catalogo />} />
         <Route path="contratos" element={<Contratos />} />
         <Route path="papelTimbrado" element={<Papel />} />
+        <Route path="NovoContrato" element={<NovoContrato />} />
 
 
        

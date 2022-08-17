@@ -1,0 +1,29 @@
+.container1{
+    background: white;  
+    float: right;  
+    width: 80%;
+    height: 100vh;
+    margin-top: -2rem;
+   
+}
+
+input {
+    margin-top:20px;
+    width:240px;
+}
+
+.anexo{
+    
+    width:400px;
+    height:480px;
+    border:solid;
+    border-radius:20px;
+    border-width:2px;
+    border-color:#DCDCDC;
+    margin-left:60px;
+
+}
+.imglink{
+    margin-left:100px;
+    margin-top:150px;
+}

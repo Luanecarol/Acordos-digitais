@@ -51,7 +51,7 @@ return(
   <div class="card-body">
     <h5 class="card-title">Tráfego Pago</h5>
 
-    <Link to="/new">
+    <Link to="/NovoContrato">
     <a href=" " class="btn btn-success">Criar</a>
     </Link>
 
