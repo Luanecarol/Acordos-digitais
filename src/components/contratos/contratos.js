@@ -16,7 +16,9 @@ return(
        <div className='mt-3'>
         <p className='fs-3'>Acesse todos os seus contratos</p>
         </div>
-
+        <Link to="/NovoContrato">
+    <a href=" " class="btn btn-success">Novo Contrato</a>
+    </Link>
         <form class="row mt-3 mb-2">
 
 

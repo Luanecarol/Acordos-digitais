@@ -14,7 +14,7 @@ return(
        
 
        <div className='mt-3'>
-        <p className='fs-3'> Personalize Seu Contrato</p>
+        <p className='fs-3 fw-bold'> Personalize Seu Contrato</p>
         </div>
 
        

@@ -9,17 +9,17 @@ export function NovoContrato () {
     return (
         <>
         <Sidebar />
-        <div className='container1'>
+        <div className='box1'>
         
        
 
            <div className=' div-form mt-3'>
-            <h5>Contrato para lançamento digital</h5>
+            <h5>Contrato para Lançamento Digital</h5>
 
     <form class="row mt-3 mb-2">
-        <h5>dados da agência</h5>
+        <h5>Dados Da Agência</h5>
 
-<div class="col-3 ">
+<div class="col-6 ">
 
 <input type="text" 
        placeholder="Razão social"
@@ -46,7 +46,7 @@ export function NovoContrato () {
                    placeholder="endereço do representante legal"
                    class=" border-success "/>
 
-                <h5>Dados do Contratante</h5>
+                <h5 class="mt-3">Dados do Contratante</h5>
 
 
   
@@ -56,21 +56,32 @@ export function NovoContrato () {
       <option value="2">Two</option>
       <option value="3">Three</option>
     </select>
+    <h5 class="mt-3">Cláusulas do contrato</h5>
+
+
+<input type="text" 
+       placeholder="Valor de Quantos R$0,00"
+       class=" border-success "/>
+
+<a href=" ">Criar Novas Cláusulas</a>
+
+     
+   
   </div>
 
   
 
   
 </form>
-
-
-     
-     </div>
-     <div className='anexo'>
+</div>
+<div className='anexo'>
 
      <img className='imglink' src={link} alt="..." height= {200}/>
 
      </div>
+     
+     
+     
 
 
 </div>
